@@ -1,9 +1,8 @@
-const linkedin = require('./interfaceLinkedin');
+const linkedin = require("./interfaceLinkedin");
 
 (async () => {
+  //await linkedin.initialize();
+  await linkedin.crawl();
 
-    await linkedin.initialize()
-
-    debugger
-
-})()
+  debugger;
+})();
